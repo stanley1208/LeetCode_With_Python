@@ -14,6 +14,6 @@ class Solution(object):
         return list
 
 
-s=Solution()
-print(s.twoSum([3,6,9,67],70))
+sol=Solution()
+print(sol.twoSum([3,6,9,67],70))
 
