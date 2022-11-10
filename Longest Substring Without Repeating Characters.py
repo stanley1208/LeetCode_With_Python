@@ -9,13 +9,15 @@ class Solution:
         # try to extend the range [i, j]
         for j in range(n):
             if s[j] in mp:
-                print(mp)
-                i = max(mp[s[j]], i)
 
+                i = max(mp[s[j]], i)
+                print(mp[s[j]])
             ans = max(ans, j - i + 1)
+            print(ans)
             mp[s[j]] = j + 1
+
 
         return ans
 
-sol=Solution().lengthOfLongestSubstring("abc")
+sol=Solution().lengthOfLongestSubstring("pwwkew")
 print(sol)
