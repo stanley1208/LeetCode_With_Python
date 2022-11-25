@@ -22,6 +22,6 @@ class Solution(object):
         return len(stack) == 0
 
 
-sol=Solution().isValid("()")
+sol=Solution().isValid("(){}[]")
 print(sol)
 
