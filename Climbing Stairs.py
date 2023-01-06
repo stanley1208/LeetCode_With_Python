@@ -8,7 +8,7 @@ class Solution(object):
         return self.climbStairs(n-1)+self.climbStairs(n-2)
 
 
-sol=Solution().climbStairs(10)
+sol=Solution().climbStairs(40)
 print(sol)
 
 
