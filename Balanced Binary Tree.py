@@ -11,10 +11,7 @@ class Solution(object):
         :rtype: bool
         """
         def dfs(root):
-            """
-            :type root: TreeNode
-            :rtype: bool and height
-            """
+
             if not root:
                 return [True,0]
 
