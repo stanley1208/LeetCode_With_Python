@@ -18,6 +18,6 @@ class Solution(object):
 
         return p
 
-sol=Solution().generate(10)
+sol=Solution().generate(5)
 print(sol)
 
