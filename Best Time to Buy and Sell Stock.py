@@ -21,13 +21,6 @@ class Solution(object):
 
 
 
-
-
-
-
-
-
-
 sol=Solution().maxProfit([7,6,4,3,1])
 print(sol)
 
