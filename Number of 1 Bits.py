@@ -7,7 +7,7 @@ class Solution(object):
         toBin=bin(n)
         return toBin.count('1')
 
-sol=Solution().hammingWeight(1101)
+sol=Solution().hammingWeight(1011)
 print(sol)
 
 
