@@ -4,10 +4,13 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        toBin=bin(n)
-        return toBin.count('1')
+        total=0
+        while n:
+            total+=n&1
+            n=n>>1
+        return total
 
-sol=Solution().hammingWeight(1011)
+sol=Solution ().hammingWeight(1011)
 print(sol)
 
 
