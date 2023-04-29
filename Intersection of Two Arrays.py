@@ -11,5 +11,5 @@ class Solution(object):
         return list(intersection)
 
 
-sol=Solution().intersection([4,9,5],[9,4,9,8,4])
+sol=Solution().intersection([4,4,9,5],[9,4,9,8,4])
 print(sol)
