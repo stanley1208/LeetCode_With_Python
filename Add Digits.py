@@ -21,5 +21,5 @@ class Solution(object):
 
 
 
-sol=Solution().addDigits(0)
+sol=Solution().addDigits(38)
 print(sol)
