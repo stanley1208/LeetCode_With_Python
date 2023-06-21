@@ -10,7 +10,7 @@ class Solution(object):
             n=n>>1
         return total
 
-sol=Solution ().hammingWeight(1011)
+sol=Solution().hammingWeight(1011)
 print(sol)
 
 
